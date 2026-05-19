@@ -1,0 +1,53 @@
+INTRODUCTION TO PYTHON
+
+What is Python?
+Python is a popular high-level, interpreted programming language created by Guido van Rossum in 1991. It is known for its simple syntax, readability, and ease of learning.
+
+Python is widely used in:
+
+i. Web development
+ii. Artificial Intelligence (AI)
+iii. Data Science
+iv. Machine Learning
+v. Game development
+
+Brief Features of Python
+
+i. Easy to Learn
+ii. Interpreted Language
+iii. Object-Oriented
+iv. Platform Independent
+v. Large Library Support
+
+Advantages of Python
+
+i. Simple and readable code
+ii. Less coding compared to other languages
+iii. Huge community support
+iv. Fast development process
+
+Disadvantages of Python
+
+i. Slower than some compiled languages like C or C++
+ii. Uses more memory
+iii. Not commonly used for mobile app development
+
+Variables:
+As like in c programming, Variables are used to store the data and it can be changed or reuse at anytime of execution of the programme.
+
+example:
+num1=56
+num2=34 
+
+In this,
+
+num1
+num2 are the variables
+
+Rules for variables:
+
+i. It can be any alphabets, words, numbers and underscore
+ii. It should not be start with numbers
+iii. No white space is allowed 
+iv. It should not contain any keyword or reserved words
+
