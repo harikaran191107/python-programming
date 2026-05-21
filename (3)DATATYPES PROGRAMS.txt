@@ -1,0 +1,204 @@
+DATATYPES PROGRAMS
+
+1)int:
+
+i. Add Two Numbers
+
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+sum=a+b
+print("Sum=",sum)
+
+ii. Find Even or Odd
+
+num=int(input("Enter a number: "))
+if num%2==0:
+    print("Even number")
+else:
+    print("Odd number")
+
+
+iii. Multiply Two Numbers
+
+x=int(input("Enter first number: "))
+y=int(input("Enter second number: "))
+product=x*y
+print("Multiplication=",product)
+
+
+2)float:
+
+i. Calculate Average
+
+a=float(input("Enter first mark: "))
+b=float(input("Enter second mark: "))
+average=(a+b)/2
+print("Average:",average)
+
+ii. Circle Area
+
+radius=float(input("Enter radius: "))
+area=3.14*radius*radius
+print("Area of circle:",area)
+
+iii. Temperature Conversion
+
+celsius=float(input("Enter temperature in Celsius: "))
+fahrenheit=(celsius*9/5)+32
+print("Fahrenheit:",fahrenheit)
+
+
+3)str:
+
+i. Display Name
+
+name=input("Enter your name: ")
+print("Hello",name)
+
+ii. Count Characters
+
+text = input("Enter a word: ")
+print("Number of characters:",len(text))
+
+iii. Reverse a String
+
+word=input("Enter a word: ")
+reverse = word[::-1]
+print("Reversed word:",reverse)
+
+
+4)bool:
+
+i. Check Voting Eligibility
+
+age=int(input("Enter your age: "))
+eligible=age>=18
+print("Eligible for voting:",eligible)
+
+ii. Check Password
+
+password=input("Enter password: ")
+correct=password=="python123"
+print("Password correct:",correct)
+
+iii. Compare Two Numbers
+
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+print("Are both numbers equal?",a==b)
+
+
+5)list:
+
+i. Store Favorite Fruits
+
+fruit1=input("Enter first fruit: ")
+fruit2=input("Enter second fruit: ")
+fruit3=input("Enter third fruit: ")
+fruits=[fruit1,fruit2,fruit3]
+print("Favorite fruits:",fruits)
+
+ii. Find Largest Number
+
+numbers=[]
+for i in range(3):
+    num = int(input("Enter number: "))
+    numbers.append(num)
+print("Largest number:",max(numbers))
+
+iii. Sum of List Elements
+
+numbers=[]
+for i in range(5):
+    num = int(input("Enter a number: "))
+    numbers.append(num)
+print("List:",numbers)
+print("Sum:",sum(numbers))
+
+
+6)tuple:
+
+i. Student Details
+
+name=input("Enter student name: ")
+age=int(input("Enter age: "))
+student=(name, age)
+print("Student details:",student)
+
+ii. Display Tuple Items
+
+a=input("Enter first item: ")
+b=input("Enter second item: ")
+c=input("Enter third item: ")
+items=(a,b,c)
+print("Tuple items:")
+for item in items:
+    print(item)
+
+iii. Count Elements
+
+x=input("Enter value 1: ")
+y=input("Enter value 2: ")
+z=input("Enter value 3: ")
+data=(x,y,z)
+print("Number of elements:",len(data))
+
+
+7)set:
+
+i. Unique Numbers
+
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+c=int(input("Enter third number: "))
+numbers = {a,b,c}
+print("Unique numbers:",numbers)
+
+ii. Add Items to Set
+
+colors=set()
+for i in range(3):
+    color=input("Enter a color: ")
+    colors.add(color)
+print("Colors in set:",colors)
+
+iii. Remove Duplicate Names
+
+name1=input("Enter first name: ")
+name2=input("Enter second name: ")
+name3=input("Enter third name: ")
+names={name1,name2,name3}
+print("Unique names:",names)
+
+
+8)dict:
+
+i. Student Information
+
+name=input("Enter student name: ")
+age=input("Enter age: ")
+student={
+    "name":name,
+    "age":age
+}
+print(student)
+
+ii. Store Marks
+
+math=int(input("Enter Math mark: "))
+science=int(input("Enter Science mark: "))
+marks={
+    "Math":math,
+    "Science":science
+}
+print("Marks:",marks)
+
+iii. Phone Book
+
+name=input("Enter contact name: ")
+phone=input("Enter phone number: ")
+phonebook={
+    name:phone
+}
+print("Phone Book:",phonebook)
+
