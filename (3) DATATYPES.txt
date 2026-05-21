@@ -1,0 +1,78 @@
+DATATYPES 
+In Python, data types define the type of value a variable can store. Python automatically identifies the data type based on the value assigned.
+
+Data Types in Python
+
+i. int:
+This datatype stores whole numbers without decimal points.
+
+example:
+age = 17
+print(age)
+
+output:17
+
+ii. float:
+This datatype stores decimal numbers.
+
+example:
+price = 99.5
+print(price)
+
+output:99.5
+
+iii. str:
+This datatype stores text or characters inside quotes.
+
+example:
+name = "Hari"
+print(name)
+
+output: Hari
+
+iv. bool:
+This datatype stores only two values:
+"True"
+"False"
+
+example:
+is_ passed = True
+print(is_ passed)
+
+v. list:
+This datatype stores multiple values in square brackets "[ ]".Lists are mutable (can be changed).
+
+example:
+colors = ["red", "blue", "green"]
+print(colors)
+
+output: red, blue, green
+
+vi. tuple:
+This datatype stores multiple values in parentheses "( )".Tuples are immutable (cannot be changed).
+
+example:
+numbers = (1, 2, 3)
+print(numbers)
+
+output:1,2,3
+
+vii. set:
+This datatype stores unique values in curly braces "{ }".
+
+example:
+items = {1, 2, 3, 3}
+print(items)
+ 
+output:1,2,3,3
+
+viii. dict:
+This datatype stores data in key-value pairs.
+
+example:
+student = {
+    "name": "Hari",
+    "age": 17
+}
+print(student)
+
