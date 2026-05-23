@@ -1,0 +1,43 @@
+CASTING PROGRAMS
+
+1.Implicit casting:
+
+i. program to convert integer to float
+
+a=10
+b=float(a)
+print(b)
+
+ii. program to add integer and float
+
+a=5
+b=2.5
+c=a+b
+print(c)
+
+iii. program to convert character to integer using ascii
+
+a='A'
+b=ord(a)
+print(b)
+
+
+2.Explicit casting:
+
+i. program to convert float to integer
+
+a=10.8
+b=int(a)
+print(b)
+
+ii. program to convert integer to string
+
+a=100
+b=str(a)
+print(b)
+
+iii. program to convert string to float
+
+a='25.5'
+b=float(a)
+print(b)
