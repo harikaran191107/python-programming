@@ -1,0 +1,38 @@
+CASTING
+
+casting is defined as the process of converting one datatype into another datatype. It is also known as type conversion.
+
+example:
+num1=10
+num2=20
+sum=num1+num2
+print("The sum of two numbers", sum)
+
+output:
+The sum of two numbers is 30
+
+But,
+num1="10"
+num2="20"
+sum=num1+num2
+print("The sum of two numbers", sum)
+
+In this above program the values are given in double quotes. So the values are consider as a string, now if we run the program the output will be 1020.
+
+To overcome this problem by using casting,
+we include int datatype for determining the value(input) telling the computer that the input is in integer format so 
+
+a=int("10")
+b=int("20")
+sum=a+b
+
+Now if you the print the sum it will recognize the input as a integer and return the output as 30 that is in integer format.
+
+The corrected program is,
+
+num1=int("10")
+num2=int("20")
+sum=num1+num2
+print("The sum of two numbers", sum)
+
+
