@@ -1,0 +1,67 @@
+1.String Input:
+
+i. Program 1
+
+name=input("Enter your name:")
+print("Hello",name)
+
+ii. Program 2
+
+city=input("Enter your city:")
+print("City:",city)
+
+
+2.Integer Input:
+
+i. Program 1
+
+age=int(input("Enter your age:"))
+print("Age:",age)
+
+ii. Program 2
+
+num1=int(input("Enter first number:"))
+num2=int(input("Enter second number:"))
+sum=num1+num2
+print("Sum=",sum)
+
+
+3.Float Input:
+
+i. Program 1
+
+height=float(input("Enter your height:"))
+print("Height=",height)
+
+ii. Program 2
+
+price=float(input("Enter price:"))
+gst=price*0.18
+print("GST=",gst)
+
+
+4.Multiple Inputs:
+
+i. Program 1
+
+a,b=input("Enter two values:").split()
+print("First value=",a)
+print("Second value=",b)
+
+ii. Program 2
+
+x,y=map(int,input("Enter two numbers:").split())
+print("Addition=",x+y)
+
+
+5.Boolean Input:
+
+i. Program 1
+
+value=bool(input("Enter True or False:"))
+print("Value=",value)
+
+ii. Program 2
+
+check=input("Are you a student? ")
+print("Answer=",check)
